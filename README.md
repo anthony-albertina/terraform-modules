@@ -16,7 +16,7 @@ module "[MODULE_NAME]" {
 # 1. Make a folder in the root of the repo named after an offering
 # 2. Test the module until completed
 # 3. Push changes and tag a commit sequentially like so:
-git tag -a "v0.0.1" -m "First tagging of my module"
+git tag -a "v#.#.#" -m "Description of Module Functionality"
 git push --follow-tags
 ```
 ### Allows asynchronous calling and tagging of modules
