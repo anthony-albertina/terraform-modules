@@ -7,7 +7,7 @@ variable "eks_version" { # https://docs.aws.amazon.com/eks/latest/userguide/kube
 variable "subnet_ids" {
   description = "Optional parameter if desired in non-default subnets"
   type = list(string)
-  default = ""
+  default = [""]
 }
 
 variable "name" {
