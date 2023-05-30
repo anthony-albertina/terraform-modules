@@ -6,7 +6,7 @@
 # 1. Install terraform based on your OS
 # 2. Create a main.tf file calling the module like below:
 module "[MODULE_NAME]" {
-  source = "git@github.com:anthony-albertina/terraform-modules//[MODULE]?ref=[TAG]"
+  source = "git::https://github.com/anthony-albertina/terraform-modules//[MODULE]?ref=[TAG]"
   [VARIABLE_NAME] = [VALUE]
 }
 # 3. In the same directory, run `terraform init`, then `terraform plan`, and finally if no errors then `terraform apply`. Enjoy!
